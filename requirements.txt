@@ -1,0 +1,5 @@
+facebook_scraper==0.2.55
+fastapi==0.75.2
+pymongo==4.1.1
+uvicorn==0.17.6
+pytest==6.2.2
