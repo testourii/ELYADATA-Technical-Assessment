@@ -13,7 +13,7 @@ class Scraper():
     "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)")
         posts=[]
         page={}
-        data=get_page_info("mosaiquefm")
+        data=get_page_info(name)
         page["name"]=name
         page["likes"]=data["likes"]
 
